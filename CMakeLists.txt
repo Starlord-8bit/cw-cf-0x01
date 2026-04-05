@@ -3,10 +3,9 @@ cmake_minimum_required(VERSION 3.5)
 set(INCLUDE_DIRS)
 set(SRC_DIRS)
 
-if(CONFIG_CLOCKFACE_MARIO)
   list(APPEND INCLUDE_DIRS "." "gfx")
   list(APPEND SRC_DIRS "." "gfx")
-endif()
+
 
 idf_component_register(
                        INCLUDE_DIRS ${INCLUDE_DIRS}

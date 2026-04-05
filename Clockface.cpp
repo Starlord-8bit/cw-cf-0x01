@@ -1,6 +1,8 @@
 
 #include "Clockface.h"
 
+namespace CF01 {
+
 EventBus eventBus;
 
 const char* FORMAT_TWO_DIGITS = "%02d";
@@ -73,3 +75,5 @@ void Clockface::externalEvent(int type) {
     updateTime();
   }
 }
+
+} // namespace CF01

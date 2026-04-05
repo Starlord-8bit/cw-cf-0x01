@@ -18,6 +18,8 @@
 #include "gfx/mario.h"
 #include "gfx/block.h"
 
+namespace CF01 {
+
 class Clockface: public IClockface {
   private:
     Adafruit_GFX* _display;
@@ -31,3 +33,5 @@ class Clockface: public IClockface {
     void externalEvent(int type);
 
 };
+
+} // namespace CF01
