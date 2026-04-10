@@ -18,6 +18,8 @@
 #include "gfx/mario.h"
 #include "gfx/block.h"
 
+#define CLOCKFACE_NAME "cw-cf-0x01"
+
 namespace CF01 {
 
 class Clockface: public IClockface {
