@@ -11,8 +11,8 @@
 #include <Object.h>
 #include <ImageUtils.h>
 // Commons
-#include <IClockface.h>
-#include <CWDateTime.h>
+#include <widgets/clockface/IClockface.h>
+#include <core/CWDateTime.h>
 
 #include "gfx/assets.h"
 #include "gfx/mario.h"
